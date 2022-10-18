@@ -1,0 +1,320 @@
+/*corps*/
+
+
+body{
+    position: relative;
+    width: auto;
+    height: auto;
+    background: RGB(255,241,241) !important;
+}
+
+/* barre de navigation*/
+.barre_nav{
+    /* position: fixed;
+    width: auto;
+    height: auto;
+    left: 0%;
+    right: 0%;*/
+
+    background:  RGB(255,241,241);
+}
+
+/* logo de la barre de navigation*/
+
+.logo{
+    display: inline-block;
+    min-width: 719px;
+}
+
+/*boutons de la barre de navigation*/
+
+.bouton{
+    display: inline-block;
+    color: dark;
+
+}
+
+/*Commentaire de la page de garde*/
+
+.avis{
+    display: inline-flex;
+}
+
+.avis .texte{
+    margin-top:1em;
+    line-height: 1.15;
+    font-size: 35px; 
+    margin-left: 1em;
+    width: 20rem;
+    margin-right: 1em;
+    color: grey;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+/*Commentaire de la page de garde (images) */
+
+.avis .photo1 p {
+    font-size: 0.7em;
+    margin-top: -21px;
+    font-weight: bold;
+}
+.avis .photo1 {
+    background-image: url(photo/student1.jpg);
+    background-size: cover;
+    width: 113px;
+    height: 198px;
+    left: 551px;
+    top: 33px;
+    margin-top: 3%;
+    margin-left: 400px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+}
+
+.avis .photo2 {
+    background-image: url(photo/student2.jpg);
+    background-size: cover;
+    width: 113px;
+    height: 198px;
+    left: 551px;
+    top: 33px;
+    margin-top: 3%;
+    margin-left: 85px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+}
+
+.avis .photo3 {
+    background-image: url(photo/student3.jpg);
+    background-size: cover;
+    width: 114px;
+    height: 198px;
+    left: 551px;
+    top: 33px;
+    margin-top: 3%;
+    margin-left: 80px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+}
+
+.inside_text{
+    margin-top: 9em;
+    text-align: center;
+    margin-left: 12px;
+    width: 80%;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 33px;
+}
+
+.features{
+    display: flex;
+    margin-top: 1em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+}
+
+.photo1{
+    background-image: url(photo/bank.jpg);
+    background-size: cover;
+    height:221px;
+    width:166px;
+    margin-left:1.5em;
+    width: 16%;
+    border-radius: 10%;
+}
+
+.photo2{
+    background-image: url(photo/admin.jpg);
+    background-size: cover;
+    height:221px;
+    width:166px;
+    margin-left:1.5em;
+    width: 16%;
+    border-radius: 10%;
+}
+
+.photo3{
+    background-image: url(photo/social.jpg);
+    background-size: cover;
+    height:221px;
+    width:166px;
+    margin-left:1.5em;
+    width: 16%;
+    border-radius: 10%;
+}
+
+.photo4{
+    background-image: url(photo/university.jpg);
+    background-size: cover;
+    height:221px;
+    width:166px;
+    margin-left:1.5em;
+    width: 16%;
+    border-radius: 10%;
+}
+
+.photo5{
+    background-image: url(photo/visa.jpg);
+    background-size: cover;
+    height:221px;
+    width:166px;
+    margin-left:1.5em;
+    width: 16%;
+    border-radius: 10%;
+}
+
+.inline_text{
+    margin-top: 35%;
+    text-align: center;
+    font-size:1.5em;
+    color: rgb(0, 0, 0);
+    opacity: 90%;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Working{
+    margin-top: 2em;
+    margin-left: 1em;
+}
+.Working p{
+    
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 3em;
+    margin-bottom:-15em;
+}
+.form{
+    
+    color: grey;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form h4, h3, h2, h1{
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.AboutPage{
+    background: white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.AboutPage p{  
+    text-align: justify;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin-left:1em;
+    margin-right:1em;
+
+}
+
+.Frequent{
+    background: white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: justify;
+    font-weight: normal;
+}
+
+
+.Frequent p{
+    text-align: justify;
+    font-weight: normal;
+}
+
+.formulaires{
+    background: white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.forme_tableau{
+    width: 50%;
+}
+
+table {
+    table-layout: fixed ;
+    width: 100% ;
+}
+
+td {
+    width: 25% ;
+}
+
+.Ask{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.Services{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    color: grey;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.figure_working{
+    background: url(photo/hand.jpeg);
+    background-size: cover;
+    height:442px;
+    width:332px;
+    border-radius: 10%;
+}
+
+.Questions{
+    text-align: 1em;
+    margin-bottom:-3%;
+    width: 68%;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color:grey; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Answers{
+    width:36%;
+    background: grey;
+    box-sizing: border-box;
+    color:white;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Submit_questions{
+    background: white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-right:2em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
